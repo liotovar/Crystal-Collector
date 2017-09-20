@@ -1,0 +1,31 @@
+body{
+	background-color: lightblue;
+}
+
+h3{
+	color: yellow;
+}
+p{
+	color: green;
+}
+.jumbotron{
+	background-color: lightblue;
+	color: orange;
+}
+
+.blue{
+	background-color: blue;
+	color: red;
+	text-align: center;
+}
+
+.green{
+	background-color: green;
+	color: yellow;
+	text-align: center;
+}
+
+.orange{
+	background-color: orange;
+	text-align: center;
+}

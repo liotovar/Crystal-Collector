@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Portfolio</title>
+  <meta>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="container">
+  <div class="jumbotron text-center">
+    <h1>Crystal Collector</h1>
+  </div>
+
+  <div class = "row"><p><h3>Directions</h3></p>
+    <p>You will be given a random number at the start of the game</p>
+    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    <p>Each time when the game starts, the game will change values of each crystal.</p>
+  </div>
+
+  <div class="row">
+    <div id = "randomNumber" class = "col-md-4 blue"></div>
+    <div id = "winLoss" class = "col-md-4 orange"></div>
+    <div id = "currentScore" class = "col-md-4 green"><h1>0</h1></div>
+  </div>
+
+  <div class="row">
+    <div id = "option1" class="col-md-3"><img src="images/crystal1.png" height = 200 width = 200></div>
+    <div id = "option2" class="col-md-3"><img src="images/crystal2.png" height = 200 width = 200></div>
+    <div id = "option3" class="col-md-3"><img src="images/crystal3.png" height = 200 width = 200></div>
+    <div id = "option4" class="col-md-3"><img src="images/crystal4.png" height = 200 width = 200></div>
+  </div>
+
+
+
+</div>
+</body>
+
+</html>
